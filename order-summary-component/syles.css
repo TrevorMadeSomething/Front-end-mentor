@@ -1,0 +1,32 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+:root{
+    --clr-primary-pale-blue: #e0e8ff;
+    --clr-primary-bright-blue: #3829e0;
+
+    --clr-neutral-very-pale-blue: #f5f7ff;
+    --clr-neutral-desaturated-blue: hsl(224, 23%, 55%);
+    --clr-neutral-dark-blue: #1f2f56;
+
+    --ff-primary: 'Red Hat Display', sans-serif;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url('images/pattern-background-desktop.svg');
+}
+
+
+
+body,
+h1,
+p{
+    margin: 0;
+}
+
