@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+    --clr-primary-bright-orange: hsl(31, 77%, 52%);
+    --clr-primary-dark-cyan: hsl(184, 100%, 22%);
+    --clr-praimary-very-dark-cyan: hsl(179, 100%, 13%);
+
+    --clr-neutral-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --clr-neutral-very-light-gray: hsl(0, 0%, 95%);
+
+    --ff-primary: 'Lexend Deca', sans-serif;
+    --ff-header: 'Big Shoulders Display', sans-serif;
+}
+
+body {
+    background-color: var(--clr-neutral-transparent-white);
+}
+
+.large-container {
+    background-color: var(--clr-primary-bright-orange);
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.suvs-card {
+    background-color: var(--clr-primary-dark-cyan);
+}
+
+.luxury-card {
+    background-color: var(--clr-praimary-very-dark-cyan);
+}
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
